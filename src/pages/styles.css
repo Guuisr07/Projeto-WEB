@@ -52,7 +52,7 @@ input {
 }
 
 .btnEnviar {
-  width: 40%;
+  width: 76%;
   height: 44px;
   border: 0;
   cursor: pointer;
@@ -60,14 +60,31 @@ input {
   border-radius: 8px;
   color: #fff;
   font-weight: 700;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 
 
   transition: background-color 0.3s;
 }
 
 .btnEnviar:hover {
   background: #0b9c54;
+}
+
+@media (min-width: 850px) {
+  .title {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    align-items: center;
+  }
+
+  .form-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    align-items: center;
+  }
+
+  .btnEnviar {
+    width: 72.5%;
+  }
 }
