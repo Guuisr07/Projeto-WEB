@@ -47,12 +47,14 @@ form-container input {
   margin-top: 10px;
   margin-left: 20px;
   padding: 7px;
-    margin: 7px 0px 0px 0px;
+    margin: 20px;
     border: 1px solid;
     border-top: 0px;
     height: max-content;
     background-color: #ffffff;
   width: 342px;
+  height: 450px;px;
+
 }
 
 .message-input {
@@ -188,4 +190,8 @@ form-container input {
 
 .menu nav a:hover {
   background: rgb(154, 116, 204);
+}
+
+.comprar{
+  width: 100%;
 }
