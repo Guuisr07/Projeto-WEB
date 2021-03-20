@@ -54,19 +54,9 @@
 ::placeholder {
   color: white;
 }
+
 .fas {
   color: whitesmoke;
-}
-.menu {
-  background-color: #007fff;
-  display: flex;
-  justify-content: space-around;
-  border-bottom: 0px;
-}
-.menu nav li {
-  display: inline-block;
-  list-style: none;
-  border: 1px solid whitesmoke;
 }
 
 .menu nav ul {
@@ -124,13 +114,17 @@
   margin-top: 10px;
   margin-left: 20px;
   padding: 7px;
-    margin: 20px;
-    border: 1px solid;
-    border-top: 0px;
-    height: max-content;
-    background-color: #ffffff;
+  margin: 20px;
+  border: 1px solid;
+  border-top: 0px;
+  height: max-content;
+  background-color: #ffffff;
   width: 342px;
+<<<<<<< HEAD
+  height: 450px;
+=======
   height: 502px
+>>>>>>> bec3329c5390a7cfa124a8d408c54626c834cb01
 }
 
 .message-input {
@@ -164,14 +158,14 @@
   .title {
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
+    width: 35%;
     align-items: center;
   }
 
   .form-container {
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
+    width: 35%;
     align-items: center;
   }
 
@@ -187,8 +181,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #007fff;
-  height: 100px;
+  background-image: url(../assets/imagens/fundoheader.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30px;
   padding: 0;
   box-sizing: border-box;
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%);
@@ -200,28 +197,40 @@
 }
 .logotipo {
   float: left;
+  padding: 10px;
+  margin-top: 60px;
+  margin-left: 200px;
 }
+
 .homologacao {
-  float: right;
   font-size: 14px;
   color: white;
-  margin-top: 0px;
+  margin-right: 100px;
+  margin-top: 100px;
   min-block-size: 3cm;
 }
+
+.login p {
+  color: rgb(12, 194, 88);
+  font-size: 2rem;
+  margin-right: 100px;
+}
+
 #divBusca {
-  background-color: #007fff;
+  background: transparent;
   color: white;
   border: solid 1px;
-  border-radius: 15px;
-  width: 300px;
+  border-radius: 5px;
+  margin-right: 50%;
+  margin-top: 20px;
+  width: 500px;
   height: 30px;
   display: flex;
   align-items: center;
-  position: relative;
+  justify-content: space-between;
 }
 
 #txtBusca {
-  float: left;
   background-color: transparent;
   padding-left: 5px;
   font-style: italic;
@@ -236,16 +245,23 @@
 }
 .fas {
   color: whitesmoke;
+  margin-right: 10px;
 }
 .menu {
-  background-color: #007fff;
+  background: transparent;
+  background-image: url(../assets/imagens/fundoheader.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
-  justify-content: space-around;
-  border-bottom: 0px;
+  justify-content: center;
+  height: 60px;
 }
 .menu nav li {
+  margin-top: 10px;
   display: inline-block;
   list-style: none;
+  justify-content: center;
   border: 1px solid whitesmoke;
 }
 
@@ -268,7 +284,11 @@
   background: rgb(154, 116, 204);
 }
 
-.comprar{
+.comprar {
   width: 100%;
+<<<<<<< HEAD
+}
+=======
   position:static;
 }
+>>>>>>> bec3329c5390a7cfa124a8d408c54626c834cb01
