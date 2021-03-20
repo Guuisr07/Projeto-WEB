@@ -3,15 +3,16 @@
   margin: 0;
 }
 
-.hero {
-  background-image: url(../assets/images/fundoheader.jpg);
-  height: 130px;
+.header {
+  background-color: #007fff;
+  height: 100px;
   width: 100%;
-  background-position: right center;
-  background-size: cover;
-  border-top: 1px solid transparent;
   padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
+
 
 .title {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
@@ -29,6 +30,7 @@
   padding: 20px;
 }
 
+
 input {
   margin-top: 5px;
   padding: 10px;
@@ -38,6 +40,43 @@ input {
   border-radius: 5px;
   outline: none;
   color: #5c8599;
+}
+
+input#txtBusca {
+  width: 530px;
+  margin-right: 220px;
+  margin-top: 20px;
+  color: #333;
+  border: 1px solid #d3e2e5;
+  border-radius: 2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+  font-size: 15px;
+
+}
+
+img {
+  width: 100%;
+  height: 400px;
+}
+
+.title-products {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 400px;
+  width: 342px;
 }
 
 .message-input {
