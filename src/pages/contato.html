@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link href="../css/contato.css" rel="stylesheet" />
+    <script src="app.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -58,28 +59,28 @@
         <div class="assunto-container">
           <label for="assunto_lbl" class="form-label">Assunto :</label>
           <br />
-          <input type="assunto" class="form-control" id="assunto-inp" />
+          <input type="text" class="form-control" id="assunto-inp" required />
         </div>
         <br />
 
         <div class="name-container">
           <label for="name_lbl" class="form-label">Nome :</label>
           <br />
-          <input type="name" class="form-control" id="name-inp" />
+          <input type="text" class="form-control" id="name-inp" placeholder="nome sobrenome"required/>
         </div>
         <br />
 
         <div class="email-container">
           <label for="email_lbl" class="form-label">Email :</label>
           <br />
-          <input type="email" class="form-control" id="email-inp" />
+          <input type="email" class="form-control" id="email-inp" placeholder="nome@mail.com" required/>
         </div>
         <br />
 
         <div class="telefone-container">
           <label for="telefone_lbl" class="form-label">Telefone :</label>
           <br />
-          <input type="teleone" class="form-control" id="telefone-inp" />
+          <input type="tel" class="form-control" id="telefone-inp" placeholder="(xx)xxxx-xxxx" required/>
         </div>
         <br />
 
@@ -88,26 +89,31 @@
             >Telefone Secundario :</label
           >
           <br />
-          <input type="tel2" class="form-control" id="tel2-inp" />
+          <input type="tel" class="form-control" id="tel2-inp" placeholder="(xx)xxxx-xxxx"/>
         </div>
         <br />
 
         <div class="codigo-pedido">
           <label for="codigo_lbl" class="form-label">Codigo do pedido :</label>
           <br />
-          <input type="tezt" class="form-control" id="codigo-inp" />
+          <input type="number" class="form-control" id="codigo-inp" placeholder="0000"/>
         </div>
         <br />
 
         <div class="mensagem">
           <label for="codigo_lbl" class="form-label">Mensagem :</label>
           <br />
-          <textarea class="message-input"></textarea>
+          <textarea type="text" class="message-input"></textarea>
         </div>
         <br />
 
         <button type="submit" class="btnEnviar">Enviar</button>
       </div>
     </form>
+    <hr>
+    <footer class="footer">
+      <p> <b>Tecnomedic</b><br>
+          Copyright© 2004 - Todos os direitos reservados.</p>
+  </footer>
   </body>
 </html>
