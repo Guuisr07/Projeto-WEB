@@ -1,25 +1,24 @@
-body{
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
   margin-left: 50px;
   margin-top: 5px;
-  padding: 20px;
 }
-.titulo{
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+.titulo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
   margin-top: 10px;
   margin-left: 12.5%;
   padding: 20px;
   font-size: 2rem;
   font-weight: 500;
 }
-.subtitulo{
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+.subtitulo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
   margin-top: 10px;
   padding: 6px;
   font-size: 1.5rem;
   font-weight: 500;
 }
-input{
+input {
   margin-top: 5px;
   padding: 6px;
   width: 50%;
@@ -29,7 +28,7 @@ input{
   outline: none;
   color: #5c8599;
 }
-.message-input{
+.message-input {
   margin-top: 5px;
   padding: 10px;
   width: 70%;
@@ -39,7 +38,7 @@ input{
   outline: none;
   color: #5c8599;
 }
-select{
+select {
   width: 25%;
   padding: 6px;
   margin-top: 5px;
@@ -48,7 +47,7 @@ select{
   outline: none;
   text-align: center;
 }
-.btnEnviar{
+.btnEnviar {
   width: 20%;
   height: 44px;
   border: 0;
