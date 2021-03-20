@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link href="../css/contato.css" rel="stylesheet" />
+    
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,134 +15,39 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-    <title>Teste</title>
+    <title>Tecnoprint | Tecnomedic</title>
   </head>
-  <body>
-    <header class="header">
-      <form class="nav-search" metod="GET">
-        <input type="text" id="txtBusca" placeholder="Buscar..." />
-      </form>
-    </header>
-
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
+  <body class="init">
+    <div class="header">
+      <div class="logotipo">
+          <img src="../assets/imagens/Logo.png" alt="">
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="../assets/images/fundoheader.jpg"
-            class="d-block"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="../assets/images/joker-photo-2_5fjr.jpg"
-            class="d-block"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img src="../assets/images/xRjGlAC.jpg" class="d-block" alt="..." />
-        </div>
+      <div class="pesquisa">
+          <form method="post">
+              <div id="divBusca">
+                  <input type="text" id="txtBusca" placeholder="Buscar..." maxlength="120">
+                  <img><i class="fas fa-search"></i></img>
+              </div>
+          </form>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <h2 class="title-products">Produtos</h2>
-    <br />
-
-    <div class="products">
-      <div class="card">
-        <img
-          src="../assets/images/joker-photo-2_5fjr.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+      <div class="homologacao">
+          <p>Nossos Produtos são homologados pela anvisa.<br> Registro nº 81252020001</p>
       </div>
 
-      <div class="card">
-        <img
-          src="../assets/images/xRjGlAC.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-
-      <div class="card">
-        <img
-          src="../assets/images/fundoheader.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-
+  </div>
+  <div class="menu">
+  <nav>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Empresa</a></li>
+          <li><a href="#">Cadastro</a></li>
+          <li><a href="#">Como Comprar</a></li>
+          <li><a href="#">Formas de pagamento e envio</a></li>
+          <li><a href="#">Fale Conosco</a></li>
+          <li><a href="#">Segurança</a></li>
+      </ul>
+  </nav>
+  </div>
     <form>
       <div class="title">Fale Conosco</div>
       <div class="form-container">
