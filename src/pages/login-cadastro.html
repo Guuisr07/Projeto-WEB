@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Cadastro</title>
+    <link rel="stylesheet" href="../css/estilo-login-cad.css">
+</head>
+<body>
+    <div class="titulo">Novo Cadastro</div>
+
+    <form class="cadastro">
+        
+        <div class="subtitulo">Dados Pessoais:</div>
+        <div class="pessoa">
+            <label for="pessoa">Pessoa</label>
+            <br>
+            <select name="pessoa" id="pessoa">
+                <option value="">------SELECIONE------</option>
+                <option value="fi">fisíca</option>
+                <option value="juri">Jurídica</option>
+            </select>
+        </div>
+        <br>
+        <div class="email">
+            <label for="email">Informe o email:</label>
+            <br>
+            <input type="email" id="email" name="email">
+        </div>
+        <br>
+        <div class="name">
+            <label for="Nome">Nome:</label>
+            <br>
+            <input type="text" id="name" name="nome">
+        </div>
+        <br>
+        <div class="sobrenome">
+            <label for="sobrenome">Sobrenome:</label>
+            <br>
+            <input type="text" id="sobrenome" name="sobrenome">
+        </div>
+        <br>
+        <div class="cpf">
+            <label for="CPF">CPF:</label>
+            <br>
+            <input type="number" id="CPF" name="CPF">
+        </div>
+        <a href="#">Porque pedimos seu CPF?</a>
+        <br><br>
+        <div class="datanasc">
+            <label for="datanasc">Data de nascimento:</label>
+            <br>
+            <input type="date" id="datanasc" name="datanasc">
+        </div>
+        <br>
+        <div class="icms">
+            <label for="estado">Situação de contribuinte ICMS</label>
+            <br>
+            <select name="ICMS" id="ICMS">
+                <option value="">------SELECIONE------</option>
+                <option value="pobre">pobre</option>
+                <option value="rico">rico</option>
+            </select>
+        </div>
+        <br>
+        <div class="telefone">
+            <label for="telefone">Telefone principal:</label>
+            <br>
+            <input type="tel" id="telefone" name="telefone">
+        </div>
+        <br>
+        <div class="telefonesec">
+            <label for="telefonesec">Telefone secundário:</label>
+            <br>
+            <input type="tel" id="telefonesec" name="telefonesec">
+        </div>
+        <br>
+        <div class="celular">
+            <label for="celular">Telefone celular:</label>
+            <br>
+            <input type="tel" id="celular" name="celular">
+        </div>
+        <br>
+        <div class="operadora">
+            <label for="operadora">Operadora</label>
+            <br>
+            <select name="operado" id="operadora">
+                <option value="">------SELECIONE------</option>
+                <option value="tim">Tim</option>
+                <option value="vivo">Vivo</option>
+                <option value="claro">Claro</option>
+                <option value="oi">Oi</option>
+            </select>
+        </div>
+        <br>
+        <div class="conheceu">
+            <label for="conheceu">Como nos conheceu?</label>
+            <br>
+            <select name="conheceu" id="conheceu">
+                <option value="">------SELECIONE------</option>
+                <option value="internet">Na internet</option>
+                <option value="indicacao">Indicação</option>
+                <option value="client">Por outro cliente</option>
+            </select>
+        </div>
+        <br>
+        <button type="submit" class="btnEnviar">Enviar</button>
+    </form>
+
+</body>
+</html>
