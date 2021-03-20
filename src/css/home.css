@@ -19,6 +19,7 @@
 }
 .init {
   background-color: whitesmoke;
+  display:grid;
 }
 .logotipo {
   float: left;
