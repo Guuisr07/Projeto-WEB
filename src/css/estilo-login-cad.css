@@ -1,4 +1,4 @@
-* {
+body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
   margin-left: 50px;
   margin-top: 5px;
@@ -6,10 +6,10 @@
 .titulo {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
   margin-top: 10px;
-  margin-left: 12.5%;
   padding: 20px;
   font-size: 2rem;
   font-weight: 500;
+  text-align: center;
 }
 .subtitulo {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
@@ -18,10 +18,14 @@
   font-size: 1.5rem;
   font-weight: 500;
 }
+.cadastro {
+  margin-left: 40%;
+}
 input {
   margin-top: 5px;
+  margin-right: auto;
   padding: 6px;
-  width: 50%;
+  width: 35%;
   background: #ffffff;
   border: 1px solid #d3e2e5;
   border-radius: 5px;
@@ -57,9 +61,117 @@ select {
   color: #fff;
   font-weight: 700;
   text-align: center;
-  margin-left: 40%;
 }
 
 .btnEnviar:hover {
   background: #0b9c54;
+}
+.header {
+  width: 100%;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../assets/imagens/fundoheader.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30px;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.init {
+  background-color: whitesmoke;
+}
+.logotipo {
+  float: left;
+  padding: 10px;
+  margin-top: 60px;
+  margin-left: 0;
+}
+
+.homologacao {
+  font-size: 14px;
+  color: white;
+  margin-right: 0px;
+  margin-top: 100px;
+  min-block-size: 3cm;
+}
+
+.login p {
+  color: rgb(12, 194, 88);
+  font-size: 2rem;
+  margin-right: 100px;
+}
+
+#divBusca {
+  background: transparent;
+  color: white;
+  border: solid 1px;
+  border-radius: 5px;
+  margin-right: 50%;
+  margin-top: 20px;
+  width: 500px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#txtBusca {
+  background-color: transparent;
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 260px;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+.fas {
+  color: whitesmoke;
+  margin-right: 10px;
+}
+.menu {
+  background: transparent;
+  background-image: url(../assets/imagens/fundoheader.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+.menu nav li {
+  margin-top: 10px;
+  display: inline-block;
+  list-style: none;
+  justify-content: center;
+  border: 1px solid whitesmoke;
+}
+
+.menu nav ul {
+  text-align: center;
+  margin: 15px 15px;
+}
+
+.menu nav a {
+  background-color: rgba(165, 128, 128, 0.3);
+  display: block;
+  padding: 3px;
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.menu nav a:hover {
+  background: rgb(154, 116, 204);
 }
